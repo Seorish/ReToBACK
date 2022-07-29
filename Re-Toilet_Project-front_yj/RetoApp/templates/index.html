@@ -1,18 +1,20 @@
+{% load static %}
+{% csrf_token %}
 <html>
   <head>
     <meta charset="UTF-8" />
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="{% static 'main.css' %}" />
   </head>
   <body>
     <div class="full">
       <div class="main_logo">
-        <img src="img/img3.jpg" style="width: 60%" />
+        <img src="{% static 'img/img3.jpg'%}" style="width: 60%" />
       </div>
 
       <div class="detail_logo">
-        <img src="img/img2.jpg" style="width: 100%" />
+        <img src="{% static 'img/img2.jpg'%}" style="width: 100%" />
       </div>
 
       <div class="text">
@@ -20,7 +22,7 @@
       </div>
 
       <div class="last_logo">
-        <img src="img/img1.jpg" style="width: 60%" />
+        <img src="{% static ''%}img/img1.jpg" style="width: 60%" />
       </div>
       <a href="login.html">
         <button class="box_login">로그인</button>
