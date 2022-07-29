@@ -13,6 +13,7 @@
     <script src="{% static 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js' %}"></script>
   </head>
   <body>
+    {% csrf_token %}
     <div id="map"></div>
     <div class="map-locate"><img src="{% static 'img/locate.png' %}" /></div>
     <div class="menubar">
@@ -36,19 +37,21 @@
         <div class="search-src">
           <input placeholder="장소, 주소 검색" class="search-input" />
           <button>
-            <a href="review.html"><img src="img/search-btn.png" /></a>
+           <a href="{% url 'search' %}"><img src="img/search-btn.png" /></a>
           </button>
         </div>
         <ul class="search-list" id="test">
           <div class="test-all" v-on:click="search">전체보기</div>
           <li class="search-li" v-for="data in apiList">
             <span class="search-list__text">
-              <div class="search-list__title">{{data.toiletNm}}</div>
-              <div class="search-list__subtitle">{{data.rdnmadr}}</div>
+              {% for i in final %}
+              <div class="search-list__title">{{ i.toiletNm }}</div>
+              <div class="search-list__subtitle">{{ i.rdnmadr }}</div>
+              {% endfor %}
             </span>
             <span class="search-list__review">
               <div class="review-text">
-                <a href="reviewinfo.html" style="text-decoration: none">
+                <a href="{% url 'review' %}" style="text-decoration: none">
                   리뷰<img src="img/Polygon 3.png" style="padding-left: 10px" />
                 </a>
               </div>
