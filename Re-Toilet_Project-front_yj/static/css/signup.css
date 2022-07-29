@@ -1,0 +1,125 @@
+.full {
+  width: 375px;
+  margin: auto;
+}
+
+.main_logo {
+  width: 200px;
+  height: 28px;
+  margin-left: 47px;
+  padding-top: 87px;
+}
+
+.id_text {
+  width: 133px;
+  height: 14px;
+  margin-left: 51px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 87px;
+}
+
+.id_box {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 291px;
+  height: 28px;
+  margin-left: 42px;
+  margin-top: 8px;
+}
+
+.id_img {
+  margin-left: 310px;
+  margin-top: -20px;
+}
+
+.password_text {
+  width: 133px;
+  height: 14px;
+  margin-left: 51px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 34px;
+}
+
+.password_box {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 291px;
+  height: 28px;
+  margin-left: 42px;
+  margin-top: 8px;
+}
+
+.password_img {
+  margin-left: 310px;
+  margin-top: -20px;
+}
+
+.password_text2 {
+  width: 133px;
+  height: 14px;
+  margin-left: 51px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 34px;
+}
+
+.password_box2 {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 291px;
+  height: 28px;
+  margin-left: 42px;
+  margin-top: 8px;
+}
+
+.password_img2 {
+  margin-left: 310px;
+  margin-top: -21px;
+}
+
+.name_text {
+  width: 133px;
+  height: 14px;
+  margin-left: 51px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 34px;
+}
+
+.name_box {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 291px;
+  height: 28px;
+  margin-left: 42px;
+  margin-top: 8px;
+}
+
+.box_signup {
+  width: 291px;
+  height: 37px;
+  background: #acb0f2;
+  margin-top: 102px;
+  border-radius: 7px;
+  margin-left: 42px;
+  border: 0;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+}

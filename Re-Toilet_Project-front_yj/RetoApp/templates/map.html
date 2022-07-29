@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kakao 지도 시작하기</title>
+    <link rel="stylesheet" href="{% static 'map.css' %} " />
+    <script
+      type="text/javascript"
+      src="{ % static '//dapi.kakao.com/v2/maps/sdk.js?appkey=cf9417a54981783676522a06e08a5d72&libraries=services' %}"
+    ></script>
+    <script src="{% static 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js' %}"></script>
+    <script src="{% static 'https://unpkg.com/axios/dist/axios.min.js' %}"></script>
+    <script src="{% static 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js' %}"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="map-locate"><img src="{% static 'img/locate.png' %}" /></div>
+    <div class="menubar">
+      <div class="menubar_left">
+        <img src="{% static 'img/img20.jpg' %}" class="menubar_img" />
+      </div>
+
+      <div class="menubar_right">
+        <img src="{% static 'img/img21.jpg' %}" class="menubar_profile" />
+        <span class="menubar-nickname">후루룩</span>
+        <span class="menubar_name">님</span>
+        <a href="mypage.html">
+          <img src="{% static 'img/img22.jpg' %}" class="menubar_my" />
+        </a>
+      </div>
+    </div>
+    <div class="map-search">
+      <img src="img/Line 1.png" class="search-show" />
+      <div></div>
+      <div class="search-box hidden">
+        <div class="search-src">
+          <input placeholder="장소, 주소 검색" class="search-input" />
+          <button>
+            <a href="review.html"><img src="img/search-btn.png" /></a>
+          </button>
+        </div>
+        <ul class="search-list" id="test">
+          <div class="test-all" v-on:click="search">전체보기</div>
+          <li class="search-li" v-for="data in apiList">
+            <span class="search-list__text">
+              <div class="search-list__title">{{data.toiletNm}}</div>
+              <div class="search-list__subtitle">{{data.rdnmadr}}</div>
+            </span>
+            <span class="search-list__review">
+              <div class="review-text">
+                <a href="reviewinfo.html" style="text-decoration: none">
+                  리뷰<img src="img/Polygon 3.png" style="padding-left: 10px" />
+                </a>
+              </div>
+              <div class="review-avg">
+                <img
+                  src="img/o_logo.png"
+                  width="18px"
+                  height="20px"
+                  style="object-fit: contain"
+                />
+                <div class="review-avg__text">4.8</div>
+              </div>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="api.js"></script>
+    <script></script>
+  </body>
+</html>

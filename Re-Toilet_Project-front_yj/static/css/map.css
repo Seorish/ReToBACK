@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.map-locate {
+  position: absolute;
+  z-index: 9;
+  bottom: 50px;
+  left: 15px;
+}
+
+.map-search {
+  position: absolute;
+  z-index: 99;
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.search-show {
+  margin: 20px 0;
+}
+
+.search-box {
+  width: 50%;
+}
+
+.search-src {
+  display: flex;
+  border-bottom: 1px solid;
+  margin-bottom: 25px;
+  padding: 0 20px;
+  border-image: linear-gradient(
+    to right,
+    rgba(164, 127, 243, 1),
+    rgba(75, 80, 191, 1)
+  );
+  border-image-slice: 1;
+}
+
+.search-src > button {
+  all: unset;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  padding: 18px 0;
+}
+
+.search-list {
+  list-style: none;
+  padding: 0 40px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.search-li {
+  display: flex;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 20px 0;
+}
+
+.search-list__text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-list__title {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.search-list__subtitle {
+  color: #545454;
+  font-size: 15px;
+}
+
+.search-list__review {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.review-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: #231773;
+  background: #ecf1ff;
+  border-radius: 14.5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-avg {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.review-avg__text {
+  color: #a47ff3;
+  padding-left: 10px;
+}
+
+/* 메뉴바 */
+.menubar {
+  position: absolute;
+  z-index: 99;
+  height: 83px;
+  background: #eff0ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 65.5px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+  top: 20px;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.menubar_img {
+  width: 128px;
+  height: 73px;
+  object-fit: contain;
+}
+
+.menubar_right {
+  height: 46px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+}
+
+.menubar-nickname {
+  color: #4b50bf;
+  font-size: 20px;
+}
+
+.menubar_name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #545454;
+}

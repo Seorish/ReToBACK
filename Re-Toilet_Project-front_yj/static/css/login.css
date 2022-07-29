@@ -1,0 +1,124 @@
+.full {
+  width: 375px;
+  margin: auto;
+}
+
+.main_logo {
+  width: 200px;
+  height: 28px;
+  margin-left: 47px;
+  padding-top: 87px;
+}
+
+.id_text {
+  width: 133px;
+  height: 14px;
+  margin-left: 51px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 87px;
+}
+
+.id_box {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 291px;
+  height: 28px;
+  margin-left: 42px;
+  margin-top: 8px;
+  outline: none;
+}
+
+.id_img {
+  margin-left: 310px;
+  margin-top: -20px;
+}
+
+.password_text {
+  width: 133px;
+  height: 14px;
+  margin-left: 51px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 34px;
+}
+
+.password_box {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 291px;
+  height: 28px;
+  margin-left: 42px;
+  margin-top: 8px;
+}
+
+.password_img {
+  margin-left: 310px;
+  margin-top: -20px;
+}
+
+.check {
+  width: 20px;
+  border: 1px solid #d9d9d9;
+  margin-left: 59px;
+  margin-top: 30px;
+}
+
+.login_text {
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  margin-left: 78px;
+  margin-top: -15px;
+}
+
+.box_login {
+  width: 291px;
+  height: 37px;
+  background: #acb0f2;
+  margin-top: 102px;
+  border-radius: 7px;
+  margin-left: 42px;
+  border: 0;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.signup_text {
+  width: 51px;
+  height: 12px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  margin-top: 18px;
+  margin-left: 45px;
+}
+
+.password_id {
+  width: 107px;
+  height: 12px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  margin-top: -21px;
+  margin-left: 222px;
+}

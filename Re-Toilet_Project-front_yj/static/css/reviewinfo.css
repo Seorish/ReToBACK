@@ -1,0 +1,219 @@
+@font-face {
+  src: url("../Re-Toilet_Project/fonts.ttf");
+  font-family: "NanumSquare";
+}
+
+.full {
+  width: 375px;
+  height: 754px;
+  margin: auto;
+}
+
+.img {
+  width: 375px;
+  height: 185px;
+}
+
+.main {
+  width: 375px;
+  height: 254px;
+  margin-top: -23px;
+  text-align: center;
+  background-color: white;
+}
+
+.name {
+  width: 272px;
+  height: 32px;
+  font-family: "NanumSquare";
+  font-size: 16px;
+  font-weight: 800;
+  padding-top: 18px;
+  margin-top: 22px;
+  margin-left: 52px;
+}
+
+.detail {
+  width: 155px;
+  height: 22px;
+  margin-left: 110.92px;
+  margin-top: -30px;
+}
+
+.detail_01 {
+  width: 30px;
+  height: 22px;
+  float: left;
+}
+
+.detail_02 {
+  width: 100px;
+  height: 22px;
+  float: right;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: -6.5px;
+  color: #747474;
+}
+
+.icon {
+  width: 375px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.address {
+  width: 190px;
+  height: 24px;
+  margin-left: 29.59px;
+  margin-top: 20px;
+}
+
+.address_detail {
+  width: 20px;
+  height: 24px;
+}
+
+.time {
+  width: 190px;
+  height: 24px;
+  margin-left: 29.59px;
+  margin-top: 15px;
+}
+
+.time_detail {
+  width: 20px;
+  height: 24px;
+  float: left;
+}
+
+.thin_line {
+  margin-top: 10px;
+  border: 0.5px solid #cfcfcf;
+}
+
+.revise {
+  width: 190px;
+  height: 24px;
+  margin-left: 29.59px;
+  margin-top: 15px;
+}
+
+.revise_detail {
+  width: 20px;
+  height: 24px;
+  margin-left: 0px;
+}
+
+.revise_detail2 {
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #545454;
+  margin-top: -31px;
+  margin-left: -40px;
+}
+
+.thick_line {
+  background: linear-gradient(to top, #cfcfcf, #747474);
+  height: 5px;
+  border: 0px;
+}
+
+.review {
+  width: 375px;
+  height: 317px;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.visitor_review {
+  width: 71px;
+  height: 24px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 23px;
+  margin-top: 10px;
+  padding-top: 18px;
+}
+
+.register {
+  margin-top: -15px;
+  margin-left: 200px;
+  width: 200px;
+  height: 24px;
+}
+
+.register_img {
+  width: 100px;
+  height: 20px;
+  margin-left: 30px;
+}
+
+.register_text {
+  margin-top: -26px;
+  margin-left: 100px;
+  width: 50px;
+  height: 20px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #626263;
+}
+
+.rectangle {
+  width: 58px;
+  height: 29px;
+  border-radius: 14.5px;
+  margin-left: -180px;
+  margin-top: 10px;
+}
+
+.rectangle2 {
+  width: 58px;
+  height: 29px;
+  border-radius: 14.5px;
+  margin-left: -125px;
+  margin-top: -28px;
+}
+
+.thin_line2 {
+  margin-top: 55px;
+  border: 0.5px solid #cfcfcf;
+}
+
+.profile {
+  margin-top: 10px;
+  margin-left: -300px;
+}
+
+.footer {
+  margin-left: 0px;
+  width: 375px;
+  height: 50px;
+  background-color: #e3e3e3;
+}
+
+.footer_text {
+  padding-top: 10px;
+  font-family: "NanumSquare";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 7px;
+  color: #747474;
+}
+
+.footer_img {
+  margin-top: -8px;
+}

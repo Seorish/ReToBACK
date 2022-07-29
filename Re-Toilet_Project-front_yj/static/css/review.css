@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+
+.review-info {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 10px 4px -1px #cecece;
+}
+
+.review-info__img {
+  display: flex;
+}
+
+.review-img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.review-info__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.toilet-name {
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.toilet-address {
+  color: #545454;
+}
+
+.review-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 10px 4px -1px #cecece;
+}
+
+.review-section__row {
+  border-bottom: 1px solid #cfcfcf;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.review-section__row:first-child {
+  padding-top: 0;
+}
+
+.review-section__row:nth-child(n + 6) {
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+.rate-text {
+  font-weight: bold;
+  color: #787878;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.rate-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #747474;
+}
+
+.rate-show__rating {
+  font-weight: bold;
+}
+
+.rating-avg {
+  color: #4b50bf;
+}
+
+.rate-show__rating {
+  margin-top: 18px;
+}
+
+.quest-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.quest-icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.quest-icons__yes > img,
+.quest-icons__no > img {
+  width: 45px;
+  height: 45px;
+}
+
+.quest-satisfied {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-small {
+  width: 34px;
+  height: 32px;
+}
+
+.quest-satisfied__input {
+  height: 28px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-left: 10px;
+  width: 180px;
+}
+
+.quest-write {
+  resize: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  height: 160px;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+.quest-complete-btn {
+  width: 100%;
+  height: 80px;
+  background-color: #acb0f2;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+footer {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e3e3e3;
+  margin-top: 8px;
+}
+
+.footer-list {
+  all: unset;
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+  color: #747474;
+  padding: 15px 0;
+}
+
+.footer-list__link {
+  border-right: 1px solid #747474;
+  padding: 0 8px;
+}
+
+.footer-list__link:last-child {
+  border: none;
+}
+
+@media screen and (max-width: 375px) {
+  .review-info {
+    padding-top: 0;
+  }
+  .toilet-name {
+    font-size: 16px;
+  }
+
+  .toilet-address {
+    font-size: 12px;
+  }
+  .rate-text {
+    font-size: 13px;
+  }
+
+  .rate-show__rating {
+    font-size: 13px;
+  }
+  .quest-title {
+    font-size: 13px;
+  }
+  .footer-list {
+    font-size: 6px;
+  }
+
+  .quest-write {
+    height: 80px;
+  }
+
+  .quest-complete-btn {
+    height: 37px;
+  }
+
+  .quest-icons {
+    max-width: 180px;
+  }
+}
